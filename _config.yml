@@ -1,6 +1,6 @@
-name: Triton Exteriors
+name: Triton Exteriors  
 markdown: redcarpet
 pygments: true
 url: "http://johnathon101.github.io/triton"
 baseurl: /triton
-imageurl: /triton/images/
+imageurl: /triton/images/ 
