@@ -11,9 +11,17 @@
 }
 
 html, body { height: 100%; }
-
+html{
+  background: rgba(212,228,239,1);
+  background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+  background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}
 body {
-  background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -72,6 +80,7 @@ a:visited { color: #a0a; }
   float:left;
   width:20%;
   min-width:175px;
+
 }
 .header{
   clear:both;
@@ -134,8 +143,9 @@ a:visited { color: #a0a; }
   overflow: hidden;
   clear:both;
   width:100%;
-  position:bottom;
+  position:absolute;
   height:80px;
+  bottom:0;
 }
 
 .footer .contact {
@@ -164,6 +174,11 @@ a:visited { color: #a0a; }
   margin-bottom:80px;
   margin-left:10px;
   margin-right:10px;
+}
+.phone {
+  font-size:20px;
+  font-weight:bold;
+  font-style:italic;
 }
 @media (max-width: 1150px) {
   .main-nav:nth-child(3)  {
