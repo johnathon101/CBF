@@ -180,6 +180,9 @@ a:visited { color: #a0a; }
   font-weight:bold;
   font-style:italic;
 }
+.brandimg{
+  width:10%;
+}
 @media (max-width: 1150px) {
   .main-nav:nth-child(3)  {
     clear:right;
