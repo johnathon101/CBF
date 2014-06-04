@@ -22,8 +22,8 @@ html{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
 }
 body {
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  margin:0 10px;
+  
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ a:visited { color: #a0a; }
   color:#fff;
   margin-left:10% ;
   padding-top:5px;
-
+  font-size:17px;
 }
 .header ul li {
   display:block;
@@ -102,7 +102,7 @@ a:visited { color: #a0a; }
   /*padding:2px 2%;*/
   background-color:#991009;
   border:2px solid #fff;
-  width:10em;
+  width:13%;
   text-align:center;
   text-decoration:none;
 }
