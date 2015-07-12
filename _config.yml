@@ -1,6 +1,6 @@
 name: Complete Basement Finishing
 markdown: redcarpet
 pygments: true
-url: "http://johnathon101.github.io/triton"
-baseurl: /cbf
-imageurl: /cbf/images/ 
+url: "http://johnathon101.github.io/CBF"
+baseurl: /CBF
+imageurl: /CBF/images/
