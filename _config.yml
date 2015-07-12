@@ -1,6 +1,6 @@
-name: Triton Exteriors  
+name: Complete Basement Finishing
 markdown: redcarpet
 pygments: true
 url: "http://johnathon101.github.io/triton"
-baseurl: /triton
-imageurl: /triton/images/ 
+baseurl: /cbf
+imageurl: /cbf/images/ 
