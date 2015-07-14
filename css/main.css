@@ -110,13 +110,13 @@ a:visited { color: #a0a; }
 .header ul li {
   background-color:#1D1F4D;
   border:2px solid #fff;
-  width:13.85%;
   text-align:center;
   float:left;
   list-style-type: none;
   display: table-cell;
 }
 .header .phone{
+  width:13.85%;
   color:yellow;
   font-weight:bold;
   font-style:italic;
